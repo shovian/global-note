@@ -15,7 +15,7 @@ export default function MainPage() {
 	return (
 		<>
 			{pageTransition ? (
-				<div className="fixed top-0 left-0 flex min-h-[100dvh] w-full justify-center">
+				<div className="bg-white dark:bg-black fixed top-0 left-0 flex min-h-[100dvh] w-full justify-center">
 					<div className="flex relative items-center justify-center">
 						<div className="w-[400px]">
 							<div
