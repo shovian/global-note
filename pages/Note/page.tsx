@@ -7,7 +7,6 @@ export default function Note() {
 	const [content, setContent] = useState('');
 	const [caretPos, setCaretPos] = useState(5);
 	const textAreaRef = useRef<HTMLTextAreaElement>(null);
-	const target: any = document.getElementById('note');
 	useEffect(() => {
 		subscribeNote(setContent);
 		console.log(process.env.FIREBASE_API_KEY);
